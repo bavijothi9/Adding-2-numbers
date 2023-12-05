@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+.App {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    padding-top: 100px;
+    background: #030303;
+    min-height: 100vh;
+    color: #04f0f0ae;
+    box-shadow: #020202;
+    
+  }
+  
+h1 {
+    margin-bottom: 50px;
+    text-shadow:5px 5px 15px 5px rgb(8, 8, 8);
+  }
+  
+.number-inputs {
+    margin-bottom: 20px;
+  }
+  
+input {
+    font-size: 80px;
+    border-radius: 20px;
+    border: 1px solid #fffcfc;
+    width: 25%;
+    padding: 10px;
+    text-align: center;
+    background: rgb(255, 254, 253);
+    color:rgb(19, 241, 223);
+    box-shadow:5px 5px 15px 5px rgb(20, 216, 241) ;
+  }
+  
+input:first-child {
+    margin-right: 20px;
+  }
+  
+button {
+  padding: 20px 30px;
+  font-size: 30px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serifs;
+  border-radius: 20px;
+  background: #00d4c9;
+  border: none;
+  margin-bottom: 50px;
+  color: #f5edf7;
+  cursor: pointer;
+  box-shadow: 5px 5px 15px 5px rgb(19, 0, 19);
+}
+
